@@ -1,0 +1,56 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.about-img {
+    width: 25%;
+    height: 25%;
+    padding: 1px;
+}
+
+.about-section {
+    justify-content: center;
+    width: 35%;
+    margin-left: 50px;
+    color: rgba(0,0,0,.6);
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.about-title {
+    margin: 0;
+    color: #323132;
+    font-size: 36px;
+}
+
+.about-subtitle {
+    margin: 0;
+    color: #323132;
+    font-size: 20px;
+}
+
+.socials {
+    transition: all .25s ease;
+    display: flex;
+    cursor: pointer;
+}
+
+.social-logo {
+    margin-right: 2em;
+    border: 1px solid #323132;
+    border-radius: 5px;
+    padding: 0.25em;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    display: block;
+    line-height: 2em;
+    color: #000000;
+}
+
+.social-logo:hover {
+    color: grey;
+}
