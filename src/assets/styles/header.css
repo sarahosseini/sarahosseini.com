@@ -1,0 +1,46 @@
+.navbar {
+    transition: all 0.2s;
+    padding: 2.5rem 7.5rem;
+}
+
+.left-container {
+    height: 3rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    float: left;
+    width: 50%;
+    color: #323132;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.right-container {
+    height: 3rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-brand{
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: .05em;
+}
+
+.navbar-brand.logo {
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+
+a { 
+    color: inherit;
+    text-decoration: none;
+}

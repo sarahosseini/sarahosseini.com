@@ -1,5 +1,10 @@
+* {
+  background-color: #fafafa;
+}
+
 .App {
-  text-align: center;
+  font-family: 'Nunito';
+  font-size: 14px;
 }
 
 .App-logo {
