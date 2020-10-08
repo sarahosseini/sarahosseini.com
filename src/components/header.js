@@ -11,10 +11,10 @@ class Header extends React.Component {
                 <a class="navbar-brand logo" href="/">Sara Hosseini</a>
             </div>
             <div class="right-container">
-                <a class="navbar-brand" href="experience">Work</a>
-                <a class="navbar-brand" href="project">Projects</a>
-                <a class="navbar-brand" href="art">Art</a>
-                <a class="navbar-brand" href="/">About + Connect</a>
+                <Link to='experience' className={"navbar-brand"}>Work</Link>
+                <Link to='project' className={"navbar-brand"}>Projects</Link>
+                <Link to='art' className={"navbar-brand"}>Art</Link>
+                <Link to='/' className={"navbar-brand"}>About + Connect</Link>
             </div>
         </nav>
     )
