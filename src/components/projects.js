@@ -1,13 +1,14 @@
 import React from 'react';
-import AboutPic from '../assets/images/aboutme.jpg';
 import ReactDOM from 'react-dom';
-import '../assets/styles/experience.css';
+import '../assets/styles/projects.css';
 
 class Projects extends React.Component {
   render() {
     return (
         <div>
-            <h2>In Progress!</h2>
+            <div class="project-container">
+              <h2 class="project-title">In Progress!</h2>
+            </div>
         </div>
     )
   }

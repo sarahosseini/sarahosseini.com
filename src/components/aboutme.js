@@ -11,7 +11,9 @@ class AboutMe extends React.Component {
                 <img src={AboutPic} class="about-img"></img>
                 <div class="about-section">
                     <h2 class="about-title">About Sara</h2>
-                    <p> Hi, I'm Sara! I'm a 3rd year Software Engineering student at the University of Waterloo.</p>
+                    <p> Hi, I'm Sara! I'm a 3rd year Software Engineering student at the University of Waterloo. 
+                        I'm currently a Growth Product Manager at Shypyard.io.
+                    </p>
                     <p> I'm passionate about Product Management, User Experience Design, and Front-End Development. 
                         At the end of the day, my goal is to create innovative solutions and understand the user's 
                         point-of-view to deliver a high-value product that user's can enjoy with ease. 
